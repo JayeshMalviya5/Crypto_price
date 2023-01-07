@@ -21,7 +21,7 @@ function getData(e){
         }else{
             document.getElementsByClassName('per')[temp].style.color = 'red'; 
         }
-        ++temp;
+        temp++;
     });
 }
 
