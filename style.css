@@ -28,3 +28,13 @@ table{
     margin: auto;
     height: 90vh;
 }
+
+@media only screen and (max-width: 720px){
+    *{
+        font-size: 8px;
+    }
+
+    .container{
+        height: 470px;
+    }
+}
